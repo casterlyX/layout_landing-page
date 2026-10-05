@@ -46,17 +46,30 @@
 
   &__image-wrapper {
     width: 100%;
+    overflow: hidden;
     margin-bottom: 16px;
 
     @include on-tablet {
       margin-bottom: 24px;
     }
 
-    img {
+    img,
+    .explore__image {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: block;
       object-fit: cover;
+      transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+    }
+
+    &:hover {
+      img,
+      .explore__image {
+        transform: scale(1.05);
+        opacity: 0.9;
+      }
     }
   }
 

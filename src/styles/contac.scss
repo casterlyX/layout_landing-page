@@ -142,6 +142,10 @@
       color: $color-placeholder;
     }
 
+    &:-webkit-autofill {
+      box-shadow: 0 0 0 1000px $color-input-bg inset;
+    }
+
     &:focus {
       border-color: $color-accent;
     }
@@ -164,6 +168,10 @@
 
     &::placeholder {
       color: $color-placeholder;
+    }
+
+    &:-webkit-autofill {
+      box-shadow: 0 0 0 1000px $color-input-bg inset;
     }
 
     &:focus {
