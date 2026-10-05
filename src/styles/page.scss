@@ -5,6 +5,10 @@ body {
   background-color: $color-white;
 }
 
+body:has([id='menu']:target) {
+  overflow: hidden;
+}
+
 .page {
   max-width: 100%;
   margin: 0 auto;

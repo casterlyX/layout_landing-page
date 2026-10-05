@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="page">
+<html lang="en" class="page" style="scroll-behavior: smooth;">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -149,8 +149,7 @@
         <div class="hours__closed">
           <h4 class="hours__closed-title">Closed on</h4>
           <p class="hours__closed-text">
-            Thanksgiving Day, Dec 25, Jan 1,<br>
-            and the first Monday in May.
+            Thanksgiving Day, Dec 25, Jan 1, and the first Monday in May.
           </p>
         </div>
       </article>
@@ -307,9 +306,7 @@
   <h2 class="contact__title">Contact Us</h2>
 
   <div class="contact__content">
-
     <div class="contact__info">
-
       <article class="contact__location">
         <h3 class="contact__location-title">The Met Fifth Avenue</h3>
 
@@ -320,13 +317,17 @@
 
         <div class="contact__group">
           <span class="contact__label">Address</span>
-          <p class="contact__value">
+          <a
+            href="https://maps.google.com/?q=1000+Fifth+Avenue+New+York+NY+10028"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact__value contact__value--link"
+          >
             1000 Fifth Avenue<br>
             New York, NY 10028
-          </p>
+          </a>
         </div>
       </article>
-
 
       <article class="contact__location">
         <h3 class="contact__location-title">The Met Cloisters</h3>
@@ -336,37 +337,23 @@
           <a href="tel:+12129233700" class="contact__value">+1 212-923-3700</a>
         </div>
 
+        <div class="contact__group">
+          <span class="contact__label">Address</span>
+          <a
+            href="https://maps.google.com/?q=99+Margaret+Corbin+Drive+Fort+Tryon+Park+New+York+NY+10040"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact__value contact__value--link"
+          >
+            99 Margaret Corbin Drive<br>
+            Fort Tryon Park<br>
+            New York, NY 10040
+          </a>
+        </div>
+      </article>
+    </div>
 
-<div class="contact__group">
-  <span class="contact__label">Address</span>
-  <a
-    href="https://maps.google.com/?q=1000+Fifth+Avenue+New+York+NY+10028"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="contact__value contact__value--link"
-  >
-    1000 Fifth Avenue<br>
-    New York, NY 10028
-  </a>
-</div>
-
-
-<div class="contact__group">
-  <span class="contact__label">Address</span>
-  <a
-    href="https://maps.google.com/?q=99+Margaret+Corbin+Drive+Fort+Tryon+Park+New+York+NY+10040"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="contact__value contact__value--link"
-  >
-    99 Margaret Corbin Drive<br>
-    Fort Tryon Park<br>
-    New York, NY 10040
-  </a>
-</div>
-
-
-    <form class="contact__form" method="POST">
+    <form class="contact__form">
       <div class="contact__field">
         <input
           type="text"

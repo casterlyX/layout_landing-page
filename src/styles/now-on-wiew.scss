@@ -68,7 +68,9 @@
   &__button {
     display: block;
     width: 100%;
-    padding: 16px 0;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 16px 24px;
     background-color: $color-accent;
     color: $color-white;
     font-family: Cinzel, serif;
@@ -87,7 +89,7 @@
     }
 
     @include on-desktop {
-      grid-column: 5 / 9;
+      grid-column: 5 / -5;
     }
 
     &:hover {
