@@ -3,6 +3,9 @@
 .contact {
   padding-top: 80px;
   padding-bottom: 80px;
+  position: relative;
+  z-index: 1;
+  background-color: $color-white;
 
   @include on-tablet {
     padding-top: 100px;
